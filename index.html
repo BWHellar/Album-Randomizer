@@ -10,8 +10,28 @@
     <title>3 boxes 1 answer</title>
   </head>
   <body>
-    <input type="text" class="input value1">
-    <input type="text" class="input value2">
-    <input type="text" disabled="disabled" id="result">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="input value1">
+          <input type="text" class="input value2">
+          <input type="text" disabled="disabled" id="result">
+        </div>
+      </div>
+      <form name="imageForm">
+        <table border=3>
+        <tr>
+          <td>
+            <input onclick="displayImage();" type=button value="Display Random Image">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="blank.jpg" name="canvas" />
+          </td>
+        </tr>
+        </table>
+      </form>
+    </div>
   </body>
 </html>
