@@ -1,3 +1,23 @@
 body {
   text-align: center;
 }
+
+
+
+img {
+  width: 500px;
+  height:auto;
+}
+.jumbotron {
+  background-image: url("https://www.vpr.org/sites/vpr/files/styles/x_large/public/201811/snow-vpr-noyes-20181113.jpg");
+  background-size: cover;
+  background-position: b;
+  border-radius: 25px;
+  text-shadow: 4px 4px #99999977;
+}
+
+.panel-heading {
+  background-color: #80bfff77;
+  margin: 10px;
+  border-radius: 25px;
+}
