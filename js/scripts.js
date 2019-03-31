@@ -1,102 +1,100 @@
 
+
+
+
 function displayImage(){
     var imagesArray = ["img/2Bears.jpg", "img/AidKit.jpg", "img/Avalanche.jpg", "img/Chainless.jpg", "img/ChromeSparks.jpg", "img/Computer.jpg", "img/Crystal.jpg", "img/DFA.jpg", "img/DillyDally.jpg", "img/Eagles.jpg", "img/Emancipator.jpg", "img/Emancipator2.jpg", "img/Foals.jpg", "img/FrontBottom.jpg", "img/MillionDead.jpg", "img/Moderat.jpg", "img/Nosajthing.jpg", "img/Offend.jpg", "img/Pixies.jpg", "img/Presets.jpg", "img/QOTSA.jpg", "img/Ratatat.jpg", "img/Regina.jpg", "img/Shlomo.jpg", "img/Silversun.jpg", "img/Sleater.jpg", "img/Tricky.jpg", "img/Wax.jpg", "img/WyeOak.jpg", "img/Yeasayer.jpg"];
     var num = Math.floor(Math.random() * 30);
     document.canvas.src = imagesArray[num];
       if (num == [0]){
-        $("#OUTPUT").text("The 2 Bears")
-        $("#Dates").text('2009-Present');
+        $("#ALBUM").text("The Night is Young");
+        $("#BAND").text("By: The 2 Bears");
       } else if (num == [1]){
-        $("#OUTPUT").text("First Aid Kit")
-        $("#Dates").text('2007-Present');
+        $("#ALBUM").text("The Lions Roar");
+        $("#BAND").text("By: First Aid Kit");
       } else if (num == [2]){
-        $("#OUTPUT").text("The Avalanches")
-        $("#Dates").text('1997-Present');
+        $("#ALBUM").text("Since I Left You")
+        $("#BAND").text("By: The Avalanches");
       } else if (num == [3]){
-        $("#OUTPUT").text("Chainless")
-        $("#Dates").text('2014-Present');
+        $("#ALBUM").text("Grey Veils");
+        $("#BAND").text("By: Chainless");
       } else if (num == [4]){
-        $("#OUTPUT").text("Chrome Sparks")
-        $("#Dates").text('2011-Present');
+        $("#ALBUM").text("Sparks EP");
+        $("#BAND").text("By: Chrome Sparks");
       } else if (num == [5]){
-        $("#OUTPUT").text("The Computers")
-        $("#Dates").text('2005-Present');
+        $("#ALBUM").text("This is the Computers");
+        $("#BAND").text("By: The Computers");
       } else if (num == [6]){
-        $("#OUTPUT").text("Crystal Castles")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("III")
+        $("#BAND").text("By: Crystal Castles");
       } else if (num == [7]){
-        $("#OUTPUT").text("Death From Above")
-        $("#Dates").text('2001-Present');
+        $("#ALBUM").text("Heads Up")
+        $("#BAND").text("By: Death From Above");
       } else if (num == [8]){
-        $("#OUTPUT").text("Dilly Dally")
-        $("#Dates").text('2013-Present');
+        $("#ALBUM").text("Heaven")
+        $("#BAND").text('By: Dilly Dally');
       } else if (num == [9]){
-        $("#OUTPUT").text("Eagles of Death Metal")
-        $("#Dates").text('1998-Present');
+        $("#ALBUM").text("Heart On")
+        $("#BAND").text('By: Eagles of Death Metal');
       } else if (num == [10]){
-        $("#OUTPUT").text("Emancipator")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("Dusk to Dawn")
+        $("#BAND").text('By: Emancipator');
       } else if (num == [11]){
-        $("#OUTPUT").text("Emancipator")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("Safe in the Steep Cliffs")
+        $("#BAND").text('By: Emancipator');
       } else if (num == [12]){
-        $("#OUTPUT").text("Foals")
-        $("#Dates").text('2005-Present');
+        $("#ALBUM").text("Antidotes")
+        $("#BAND").text('By: Foals');
       } else if (num == [13]){
-        $("#OUTPUT").text("The Front Bottoms")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("Back on Top")
+        $("#BAND").text('By: The Front Bottoms');
       } else if (num == [14]){
-        $("#OUTPUT").text("Million Dead")
-        $("#Dates").text('2000-2005');
+        $("#ALBUM").text("Harmony No Harmony")
+        $("#BAND").text('By: Million Dead');
       } else if (num == [15]){
-        $("#OUTPUT").text("Moderat")
-        $("#Dates").text('2002-2017');
+        $("#ALBUM").text("II")
+        $("#BAND").text('By: Moderat');
       } else if (num == [16]){
-        $("#OUTPUT").text("Nosaj Thing")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("Home")
+        $("#BAND").text('By: Nosaj Thing');
       } else if (num == [17]){
-        $("#OUTPUT").text("Does It Offend You, Yeah?")
-        $("#Dates").text('2006-2012');
+        $("#ALBUM").text("You Have No Idea What You're Getting Into")
+        $("#BAND").text('By: Does It Offend You, Yeah?');
       } else if (num == [18]){
-        $("#OUTPUT").text("Pixies")
-        $("#Dates").text('1986-Present');
+        $("#ALBUM").text("Doolittle")
+        $("#BAND").text('By: Pixies');
       } else if (num == [19]){
-        $("#OUTPUT").text("The Presets")
-        $("#Dates").text('2003-Present');
+        $("#ALBUM").text("Pacifica")
+        $("#BAND").text('By: The Presets');
       } else if (num == [20]){
-        $("#OUTPUT").text("Queens of the Stone Age")
-        $("#Dates").text('1996-Present');
+        $("#ALBUM").text("Era Vulgaris")
+        $("#BAND").text('By: Queens of the Stone Age');
       } else if (num == [21]){
-        $("#OUTPUT").text("Ratatat")
-        $("#Dates").text('2001-Present');
+        $("#ALBUM").text("The Classics")
+        $("#BAND").text('By: Ratatat');
       } else if (num == [22]){
-        $("#OUTPUT").text("Regina Spektor")
-        $("#Dates").text('2001-Present');
+        $("#ALBUM").text("Begin to Hope")
+        $("#BAND").text('By: Regina Spektor');
       } else if (num == [23]){
-        $("#OUTPUT").text("Shlomo")
-        $("#Dates").text('2009-Present');
+        $("#ALBUM").text("Bad Vibes")
+        $("#BAND").text('By: Shlomo');
       } else if (num == [24]){
-        $("#OUTPUT").text("Silversun Pickups")
-        $("#Dates").text('2000-Present');
+        $("#ALBUM").text("Pikul")
+        $("#BAND").text('By: Silversun Pickups');
       } else if (num == [25]){
-        $("#OUTPUT").text("Sleater-Kinney")
-        $("#Dates").text('1994-Present');
+        $("#ALBUM").text("Cities to Love")
+        $("#BAND").text('By: Sleater-Kinney');
       } else if (num == [26]){
-        $("#OUTPUT").text("Tricky")
-        $("#Dates").text('1985-Present');
+        $("#ALBUM").text("False Idols")
+        $("#BAND").text('By: Tricky');
       } else if (num == [27]){
-        $("#OUTPUT").text("Wax Tailor")
-        $("#Dates").text('2001-Present');
+        $("#ALBUM").text("Wax Tailor Tales of the Forgotten Melodies")
+        $("#BAND").text('By: Wax Tailor');
       } else if (num == [28]){
-        $("#OUTPUT").text("Wye Oak")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("Civilian")
+        $("#BAND").text('By: Wye Oak');
       } else if (num == [29]){
-        $("#OUTPUT").text("Yeasayer")
-        $("#Dates").text('2006-Present');
+        $("#ALBUM").text("Fragrant World")
+        $("#BAND").text('By: Yeasayer');
       }
     }
-
-
-
-$(document).ready(function(){
-});
