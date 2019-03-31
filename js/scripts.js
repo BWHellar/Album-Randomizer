@@ -1,70 +1,98 @@
-// var imagesArray = ["img/2Bears.jpg", "img/AidKit.jpg", "img/Avalanche.jpg", "img/Chainless.jpg", "img/ChromeSparks.jpg", "img/Computer.jpg", "img/Crystal.jpg", "img/DFA.jpg", "img/DillyDally.jpg", "img/Eagles.jpg", "img/Emancipator.jpg", "img/Emancipator2.jpg", "img/Foals.jpg", "img/FrontBottom.jpg", "img/MillionDead.jpg", "img/Moderat.jpg", "img/Nosajthing.jpg", "img/Offend.jpg", "img/Pixies.jpg", "img/Presets.jpg", "img/QOTSA.jpg", "img/Ratatat.jpg", "img/Regina.jpg", "img/Shlomo.jpg", "img/Silversun.jpg", "img/Sleater.jpg", "img/Tricky.jpg", "img/Wax.jpg", "img/WyeOak.jpg", "img/Yeasayer.jpg"];
-
 
 function displayImage(){
     var imagesArray = ["img/2Bears.jpg", "img/AidKit.jpg", "img/Avalanche.jpg", "img/Chainless.jpg", "img/ChromeSparks.jpg", "img/Computer.jpg", "img/Crystal.jpg", "img/DFA.jpg", "img/DillyDally.jpg", "img/Eagles.jpg", "img/Emancipator.jpg", "img/Emancipator2.jpg", "img/Foals.jpg", "img/FrontBottom.jpg", "img/MillionDead.jpg", "img/Moderat.jpg", "img/Nosajthing.jpg", "img/Offend.jpg", "img/Pixies.jpg", "img/Presets.jpg", "img/QOTSA.jpg", "img/Ratatat.jpg", "img/Regina.jpg", "img/Shlomo.jpg", "img/Silversun.jpg", "img/Sleater.jpg", "img/Tricky.jpg", "img/Wax.jpg", "img/WyeOak.jpg", "img/Yeasayer.jpg"];
     var num = Math.floor(Math.random() * 30);
     document.canvas.src = imagesArray[num];
       if (num == [0]){
-        $("#DATA").text("<h1>HELLO</h1>");
+        $("#OUTPUT").text("The 2 Bears")
+        $("#Dates").text('2009-Present');
       } else if (num == [1]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("First Aid Kit")
+        $("#Dates").text('2007-Present');
       } else if (num == [2]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("The Avalanches")
+        $("#Dates").text('1997-Present');
       } else if (num == [3]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Chainless")
+        $("#Dates").text('2014-Present');
       } else if (num == [4]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Chrome Sparks")
+        $("#Dates").text('2011-Present');
       } else if (num == [5]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("The Computers")
+        $("#Dates").text('2005-Present');
       } else if (num == [6]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Crystal Castles")
+        $("#Dates").text('2006-Present');
       } else if (num == [7]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Death From Above")
+        $("#Dates").text('2001-Present');
       } else if (num == [8]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Dilly Dally")
+        $("#Dates").text('2013-Present');
       } else if (num == [9]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Eagles of Death Metal")
+        $("#Dates").text('1998-Present');
       } else if (num == [10]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Emancipator")
+        $("#Dates").text('2006-Present');
       } else if (num == [11]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Emancipator")
+        $("#Dates").text('2006-Present');
       } else if (num == [12]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Foals")
+        $("#Dates").text('2005-Present');
       } else if (num == [13]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("The Front Bottoms")
+        $("#Dates").text('2006-Present');
       } else if (num == [14]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Million Dead")
+        $("#Dates").text('2000-2005');
       } else if (num == [15]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Moderat")
+        $("#Dates").text('2002-2017');
       } else if (num == [16]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Nosaj Thing")
+        $("#Dates").text('2006-Present');
       } else if (num == [17]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Does It Offend You, Yeah?")
+        $("#Dates").text('2006-2012');
       } else if (num == [18]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Pixies")
+        $("#Dates").text('1986-Present');
       } else if (num == [19]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("The Presets")
+        $("#Dates").text('2003-Present');
       } else if (num == [20]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Queens of the Stone Age")
+        $("#Dates").text('1996-Present');
       } else if (num == [21]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Ratatat")
+        $("#Dates").text('2001-Present');
       } else if (num == [22]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Regina Spektor")
+        $("#Dates").text('2001-Present');
       } else if (num == [23]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Shlomo")
+        $("#Dates").text('2009-Present');
       } else if (num == [24]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Silversun Pickups")
+        $("#Dates").text('2000-Present');
       } else if (num == [25]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Sleater-Kinney")
+        $("#Dates").text('1994-Present');
       } else if (num == [26]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Tricky")
+        $("#Dates").text('1985-Present');
       } else if (num == [27]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Wax Tailor")
+        $("#Dates").text('2001-Present');
       } else if (num == [28]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Wye Oak")
+        $("#Dates").text('2006-Present');
       } else if (num == [29]){
-        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+        $("#OUTPUT").text("Yeasayer")
+        $("#Dates").text('2006-Present');
       }
     }
 
