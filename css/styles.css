@@ -21,3 +21,7 @@ img {
   margin: 10px;
   border-radius: 25px;
 }
+
+li {
+  display: none;
+}

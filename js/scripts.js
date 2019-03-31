@@ -6,67 +6,68 @@ function displayImage(){
     var num = Math.floor(Math.random() * 30);
     document.canvas.src = imagesArray[num];
       if (num == [0]){
-        alert("HELLO");
+        $("#DATA").text("<h1>HELLO</h1>");
       } else if (num == [1]){
-        alert("NONONO");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [2]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [3]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [4]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [5]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [6]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [7]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [8]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [9]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [10]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [11]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [12]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [13]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [14]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [15]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [16]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [17]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [18]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [19]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [20]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [21]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [22]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [23]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [24]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [25]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [26]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [27]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [28]){
-        alert("kokokokokok");
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
       } else if (num == [29]){
-        alert("kokokokokok");
-      } 
-}
+        $("#DATA").text("<li>Your match is " + "</li>" + "<li>WHOWHOH" + "</li>");
+      }
+    }
+
 
 
 $(document).ready(function(){
