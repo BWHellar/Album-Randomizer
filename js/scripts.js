@@ -1,3 +1,22 @@
+var TwoBears = ["Get Out", "Angel (Touch Me)", "Money Man", "Not This Time", "See You", "Son Of The Sun", "	Unbuild It", "Modern Family", "Mary Mary", "Run Run Run", "My Queen", "	The Night Is Young", "Silence", "Hidden Track"]
+var AidKit = ["The Lion's Roar", "Emmylou", "In The Hearts Of Men", "Blue", "This Old Routine", "To A Poet", "I Found A Way", "Dance To Another Tune", "New Year's Eve", "King Of The World"]
+var Avalanche = ["Since I Left You", "Stay Another Season", "Radio", "Two Hearts In 3/4 Time", "Avalanche Rock", "Flight Tonight", "Close To You", "Diners Only", "A Different Feeling", "Electricity", "Tonight May Have To Last Me All My Life", "Pablo's Cruise", "Frontier Psychiatrist", "Etoh", "Summer Crane", "Little Journey", "Live At Dominoes", "Extra Kings"]
+var Chainless = ["1755", "Grey Veils", "Ancient Ruins", "Artifacts", "Hiding", "Gaia's Chant", "Gatekeeper"]
+var Chrome = ["Your Planet", "Marijuana", "Cosmic Slap Of Love", "Send The Pain On", "Gates To Heaven", "Luna Luxor"]
+var Computer = ["Where Do I Fit In", "Lovers Lovers Lovers", "Blood Is Thicker", "Hot Damnocles", "Cinco De Mayo", "Rhythm Revue", "Group Identity", "I've Got What It Takes (Part 3)", "Yeah Yeah Yeah", "The Queen In 3D", "Music Is Dead"]
+var Crystal = ["Plague", "Kerosene", "Wrath Of God", "Affection", "Pale Flesh", "Sad Eyes", "Insulin", "Transgender", "Violent Youth", "Telepath", "Mercenary", "Child I Will Hurt You"]
+var Death = ["Dead Womb", "Too Much Love", "Do It! (Live)", "My Love Is Shared", "Losing Friends", "If We Don't Make It We'll Fake It"]
+var Dilly = ["I Feel Free", "Doom", "Believe", "Sober Motel", "Sorry Ur Mad", "Marijuana", "Pretty Cold", "Bad Biology", "Heaven"]
+var Eagles = ["Anything 'Cept The Truth", "Wannabe In L.A.", "(I Used To Couldn't Dance) Tight Pants", "High Voltage", "Secret Plans", "Now I'm A Fool", "Heart On", "Cheap Thrills", "How Can A Man With So Many Friends Feel So Alone", "Solo Flights", "Prissy Prancin", "I'm Your Torpedo"]
+var Emanc = ["Minor Cause", "Valhalla", "Merlion", "Outlaw", "Dusk To Dawn", "The Way", "Afterglow", "Eve II", "Natural Cause", "Galapagos"]
+var Emanc2 = ["Greenland", "Black Lake", "Jet Stream", "Kamakura", "All Through The Night", "Old Devil", "Nevergreen", "Ares", "Rattlesnakes", "Bury Them Bones", "Vines", "Hill Sighed", "Siren", "Safe In The Steep Cliffs"]
+var Foals ["The French Open", "Cassius", "Red Socks Pugie", "Olympic Airways", "Electric Bloom", "Balloons", "Heavy Water", "Two Steps Twice", "Big Big Love (Fig. 2)", "Like Swimming", "Tron"]
+var Front ["Motorcyle" "Summer Shandy", "Cough It Out", "Help", "Laugh Till I Cry", "Historic Cemetery", "The Plan (F**k Jobs)", "Ginger", "2YL", "West Virginia", "Plastic Flowers"]
+var Million ["Bread And Circuses", "Holloway Prison Blues", "After The Rush Hour", "Plan B", "Carthago Est Delenda", "To Whom It May Concern", "Living The Dream", "Margot Kidder", "Murder And Create", "Achilles Lung", "Bovine Spungiform Economics", "Father My Father", "Engine Driver", "Harmony No Harmony"]
+var Moderat ["The Mark (Interlude)", "Bad Kingdom", "Versions", "Let In The Light", "Milk", "Therapy", "Gita", "Clouded (Interlude)", "Ilona", "Damage Done", "This Time"]
+var Nosaj = ["Home", "Eclipse/Blue", "Safe", "Glue", "Distance", "Tell", "Snap", "Prelude", "Try", "Phase III", "Light 3"]
+var Offend = ["Battle Royale", "With A Heavy Heart (I Regret To Inform You)", "We Are Rockstars", "Dawn Of The Dead", "Doomed Now", "Attack Of The 60 FT Lesbian Octopus", "Let's Make Out", "Being Bad Feels Pretty Good", "Weird Science", "Epic Last Song"]
+var Pixies = ["Debaser", "Tame", "Wave Of Mutilation", "I Bleed", "Here Comes Your Man", "Dead", "Monkey Gone To Heaven", "Mr. Grieves", "Crackity Jones", "La La Love You", "No. 13 Baby", "There Goes My Gun", "Hey", "Silver", "Gouge Away"]
 
 
 
