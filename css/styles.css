@@ -13,15 +13,41 @@ img {
   background-size: cover;
   background-position: b;
   border-radius: 25px;
-  text-shadow: 4px 4px #99999977;
+  text-shadow: 1px 1px black;
 }
 
 .panel-heading {
-  background-color: #80bfff77;
+  background-color: #80bf3388;
   margin: 10px;
   border-radius: 25px;
 }
 
 li {
   display: none;
+}
+
+.nav-item {
+  display: flex; justify-content: center;
+  margin-bottom: -50px;
+  padding: 2px;
+}
+
+.nav-pills {
+  display: flex; justify-content: center;
+}
+
+a.nav-link {
+  color: #80bf3388;
+}
+
+a.nav-link:hover{
+  text-decoration: underline;
+}
+
+body {
+  background-color: #e8eefd;
+  background-image: url(../img/Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
