@@ -17,8 +17,17 @@ var Moderat ["The Mark (Interlude)", "Bad Kingdom", "Versions", "Let In The Ligh
 var Nosaj = ["Home", "Eclipse/Blue", "Safe", "Glue", "Distance", "Tell", "Snap", "Prelude", "Try", "Phase III", "Light 3"]
 var Offend = ["Battle Royale", "With A Heavy Heart (I Regret To Inform You)", "We Are Rockstars", "Dawn Of The Dead", "Doomed Now", "Attack Of The 60 FT Lesbian Octopus", "Let's Make Out", "Being Bad Feels Pretty Good", "Weird Science", "Epic Last Song"]
 var Pixies = ["Debaser", "Tame", "Wave Of Mutilation", "I Bleed", "Here Comes Your Man", "Dead", "Monkey Gone To Heaven", "Mr. Grieves", "Crackity Jones", "La La Love You", "No. 13 Baby", "There Goes My Gun", "Hey", "Silver", "Gouge Away"]
-
-
+var Presets = ["Youth In Trouble", "Ghosts", "Promises", "Push", "Fall", "It's Cool", "A.O.", "Surrender", "Fast Seconds", "Fail Epic"]
+var Queens = ["Turnin' On The Screw", "Sick, Sick, Sick", "I'm Designer", "Into The Hollow", "Misfit Love", "Battery Acid", "Make it Wit Chu", "3's & 7's", "Suture Up Your Future", "River In The Road", "Run, Pig, Run"]
+var Ratatat = ["Montanita", "Lex", "Gettysburg", "Wildcat", "Tropicana", "Loud Pipes", "Kennedy", "Swisha", "Nostrand", "Tacobel Canon"]
+var Regina = ["Fidelity", "Batter", "Samson", "On The Radio", "Field Below", "Hotel Song", "Après Moi", "20 Years Of Snow", "That Time", "Edit", "Lady", "Summer In The City"]
+var Shlomo = ["Big Feelings", "Places", "Anywhere But Here", "It Was Whatever", "Parties", "Just Us", "Sink", "I Can't See You, I'm Dead", "Trapped In A Burning House", "Get Out", "Your Stupid Face", "Seriously", "Same Time", "Places (Shlohmo Remix)"]
+var Silversun = ["Kissing Families", "Comeback Kid", "Booksmart Devil", "The Fuzz", "Creation Lake", "...All The Go Inbetweens", "Sci-Fi Lullaby"]
+var Sleater = ["Price Tag", "Fangless", "Surface Envy", "No Cities To Love", "A New Wave", "No Anthems", "Gimme Love", "Bury Our Friends", "Hey Darling", "Fade"]
+var Tricky = ["Somebody's Sins", "Nothing Matters", "Valentine", "Bonnie & Clyde", "Parenthesis", "Nothing's Changed", "If Only I Knew", "Is That Your Life", "Tribal Drums", "We Don't Die", "Chinese Interlude", "Does It", "I'm Ready", "Hey Love", "Passion Of The Christ"]
+var Wax = ["Behind The Curtain (Opening)", "Que Sera", "Ungodly Fruit", "Between Fellows", "Hypnosis Theme", "Damn That Music Made My Day", "Where My Heart's At", "Birth Of A Struggle", "Am I Free", "Ringing Score", "I Don't Know", "Our Dance", "Stay Tuned", "Walk The Line", "A Woman's Voice", "Don't You Remember", "How I Feel", "Behind The Disguise (Closing)"]
+var Wye = ["Two Small Deaths", "The Alter", "Holy Holy", "Dogs Eyes", "Civilian", "Fish", "Plains", "Hot As Day", "We Were Wealth", "Doubt"]
+var Yea = ["Fingers Never Bleed", "Longevity", "Blue Paper", "Henrietta", "Devil and the Deed", "No Bones", "Reagan's Skeleton", "Demon Road", "Damaged Goods	", "Folk Hero Shtick", "Glass of the Microscope"]
 
 
 function displayImage(){
