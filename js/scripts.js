@@ -52,23 +52,23 @@ $(document).ready(function(){
     if (num == [0]){
       $("#ALBUM").text("The Night is Young");
       $("#BAND").text("By: The 2 Bears");
-      //remove the last albums track list
+      //ve the last albums track list
       $("#myList").text("");
 
 
-      //all you did was forget the <li>'s..... BUT.....
+      //all you did was forget the <li>'s BUT..................
       // TwoBears.forEach(function(TwoBear){
       //   $('#myList').append("<li>"+TwoBear+"</li>");
       // });
 
-      //use a for loop instead
+      //................use a for loop instead
       for (var i = 0; i < TwoBears.length; i++) {
         console.log("two bears");
         $("#myList").append("<li>"+TwoBears[i]+"</li>");  //this is the magic (the <li>'s) -- see also line 40 of the HTML
       };
 
       //on a more advanded aside, is there a way to automate all these if else if statements
-      //with a simple function instead of typing them all out?
+      //with a SINGLE function instead of typing them all out?
     } else if (num == 1){
       $("#ALBUM").text("The Lions Roar");
       $("#BAND").text("By: First Aid Kit");
