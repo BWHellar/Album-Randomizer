@@ -1,5 +1,5 @@
 var TwoBears = ["Get Out", "Angel (Touch Me)", "Money Man", "Not This Time", "See You", "Son Of The Sun", "	Unbuild It", "Modern Family", "Mary Mary", "Run Run Run", "My Queen", "	The Night Is Young", "Silence", "Hidden Track"]
-var AidKit = ["The Lion's Roar", "Emmylou", "In The Hearts Of Men", "Blue", "This Old Routine", "To A Poet", "I Found A Way", "Dance To Another Tune", "New Year's Eve", "King Of The World"]
+var AidKits = ["The Lion's Roar", "Emmylou", "In The Hearts Of Men", "Blue", "This Old Routine", "To A Poet", "I Found A Way", "Dance To Another Tune", "New Year's Eve", "King Of The World"]
 var Avalanche = ["Since I Left You", "Stay Another Season", "Radio", "Two Hearts In 3/4 Time", "Avalanche Rock", "Flight Tonight", "Close To You", "Diners Only", "A Different Feeling", "Electricity", "Tonight May Have To Last Me All My Life", "Pablo's Cruise", "Frontier Psychiatrist", "Etoh", "Summer Crane", "Little Journey", "Live At Dominoes", "Extra Kings"]
 var Chainless = ["1755", "Grey Veils", "Ancient Ruins", "Artifacts", "Hiding", "Gaia's Chant", "Gatekeeper"]
 var Chrome = ["Your Planet", "Marijuana", "Cosmic Slap Of Love", "Send The Pain On", "Gates To Heaven", "Luna Luxor"]
@@ -10,10 +10,10 @@ var Dilly = ["I Feel Free", "Doom", "Believe", "Sober Motel", "Sorry Ur Mad", "M
 var Eagles = ["Anything 'Cept The Truth", "Wannabe In L.A.", "(I Used To Couldn't Dance) Tight Pants", "High Voltage", "Secret Plans", "Now I'm A Fool", "Heart On", "Cheap Thrills", "How Can A Man With So Many Friends Feel So Alone", "Solo Flights", "Prissy Prancin", "I'm Your Torpedo"]
 var Emanc = ["Minor Cause", "Valhalla", "Merlion", "Outlaw", "Dusk To Dawn", "The Way", "Afterglow", "Eve II", "Natural Cause", "Galapagos"]
 var Emanc2 = ["Greenland", "Black Lake", "Jet Stream", "Kamakura", "All Through The Night", "Old Devil", "Nevergreen", "Ares", "Rattlesnakes", "Bury Them Bones", "Vines", "Hill Sighed", "Siren", "Safe In The Steep Cliffs"]
-var Foals ["The French Open", "Cassius", "Red Socks Pugie", "Olympic Airways", "Electric Bloom", "Balloons", "Heavy Water", "Two Steps Twice", "Big Big Love (Fig. 2)", "Like Swimming", "Tron"]
-var Front ["Motorcyle" "Summer Shandy", "Cough It Out", "Help", "Laugh Till I Cry", "Historic Cemetery", "The Plan (F**k Jobs)", "Ginger", "2YL", "West Virginia", "Plastic Flowers"]
-var Million ["Bread And Circuses", "Holloway Prison Blues", "After The Rush Hour", "Plan B", "Carthago Est Delenda", "To Whom It May Concern", "Living The Dream", "Margot Kidder", "Murder And Create", "Achilles Lung", "Bovine Spungiform Economics", "Father My Father", "Engine Driver", "Harmony No Harmony"]
-var Moderat ["The Mark (Interlude)", "Bad Kingdom", "Versions", "Let In The Light", "Milk", "Therapy", "Gita", "Clouded (Interlude)", "Ilona", "Damage Done", "This Time"]
+var Foals = ["The French Open", "Cassius", "Red Socks Pugie", "Olympic Airways", "Electric Bloom", "Balloons", "Heavy Water", "Two Steps Twice", "Big Big Love (Fig. 2)", "Like Swimming", "Tron"]
+var Front = ["Motorcyle", "Summer Shandy", "Cough It Out", "Help", "Laugh Till I Cry", "Historic Cemetery", "The Plan (F**k Jobs)", "Ginger", "2YL", "West Virginia", "Plastic Flowers"]
+var Million = ["Bread And Circuses", "Holloway Prison Blues", "After The Rush Hour", "Plan B", "Carthago Est Delenda", "To Whom It May Concern", "Living The Dream", "Margot Kidder", "Murder And Create", "Achilles Lung", "Bovine Spungiform Economics", "Father My Father", "Engine Driver", "Harmony No Harmony"]
+var Moderat = ["The Mark (Interlude)", "Bad Kingdom", "Versions", "Let In The Light", "Milk", "Therapy", "Gita", "Clouded (Interlude)", "Ilona", "Damage Done", "This Time"]
 var Nosaj = ["Home", "Eclipse/Blue", "Safe", "Glue", "Distance", "Tell", "Snap", "Prelude", "Try", "Phase III", "Light 3"]
 var Offend = ["Battle Royale", "With A Heavy Heart (I Regret To Inform You)", "We Are Rockstars", "Dawn Of The Dead", "Doomed Now", "Attack Of The 60 FT Lesbian Octopus", "Let's Make Out", "Being Bad Feels Pretty Good", "Weird Science", "Epic Last Song"]
 var Pixies = ["Debaser", "Tame", "Wave Of Mutilation", "I Bleed", "Here Comes Your Man", "Dead", "Monkey Gone To Heaven", "Mr. Grieves", "Crackity Jones", "La La Love You", "No. 13 Baby", "There Goes My Gun", "Hey", "Silver", "Gouge Away"]
@@ -28,15 +28,19 @@ var Tricky = ["Somebody's Sins", "Nothing Matters", "Valentine", "Bonnie & Clyde
 var Wax = ["Behind The Curtain (Opening)", "Que Sera", "Ungodly Fruit", "Between Fellows", "Hypnosis Theme", "Damn That Music Made My Day", "Where My Heart's At", "Birth Of A Struggle", "Am I Free", "Ringing Score", "I Don't Know", "Our Dance", "Stay Tuned", "Walk The Line", "A Woman's Voice", "Don't You Remember", "How I Feel", "Behind The Disguise (Closing)"]
 var Wye = ["Two Small Deaths", "The Alter", "Holy Holy", "Dogs Eyes", "Civilian", "Fish", "Plains", "Hot As Day", "We Were Wealth", "Doubt"]
 var Yea = ["Fingers Never Bleed", "Longevity", "Blue Paper", "Henrietta", "Devil and the Deed", "No Bones", "Reagan's Skeleton", "Demon Road", "Damaged Goods	", "Folk Hero Shtick", "Glass of the Microscope"]
+var imagesArray = ["img/2Bears.jpg", "img/AidKit.jpg", "img/Avalanche.jpg", "img/Chainless.jpg", "img/ChromeSparks.jpg", "img/Computer.jpg", "img/Crystal.jpg", "img/DFA.jpg", "img/DillyDally.jpg", "img/Eagles.jpg", "img/Emancipator.jpg", "img/Emancipator2.jpg", "img/Foals.jpg", "img/FrontBottom.jpg", "img/MillionDead.jpg", "img/Moderat.jpg", "img/Nosajthing.jpg", "img/Offend.jpg", "img/Pixies.jpg", "img/Presets.jpg", "img/QOTSA.jpg", "img/Ratatat.jpg", "img/Regina.jpg", "img/Shlomo.jpg", "img/Silversun.jpg", "img/Sleater.jpg", "img/Tricky.jpg", "img/Wax.jpg", "img/WyeOak.jpg", "img/Yeasayer.jpg"];
+
 
 
 function displayImage(){
-    var imagesArray = ["img/2Bears.jpg", "img/AidKit.jpg", "img/Avalanche.jpg", "img/Chainless.jpg", "img/ChromeSparks.jpg", "img/Computer.jpg", "img/Crystal.jpg", "img/DFA.jpg", "img/DillyDally.jpg", "img/Eagles.jpg", "img/Emancipator.jpg", "img/Emancipator2.jpg", "img/Foals.jpg", "img/FrontBottom.jpg", "img/MillionDead.jpg", "img/Moderat.jpg", "img/Nosajthing.jpg", "img/Offend.jpg", "img/Pixies.jpg", "img/Presets.jpg", "img/QOTSA.jpg", "img/Ratatat.jpg", "img/Regina.jpg", "img/Shlomo.jpg", "img/Silversun.jpg", "img/Sleater.jpg", "img/Tricky.jpg", "img/Wax.jpg", "img/WyeOak.jpg", "img/Yeasayer.jpg"];
-    var num = Math.floor(Math.random() * 30);
+    var num = Math.floor(Math.random() * 3);
     document.canvas.src = imagesArray[num];
       if (num == [0]){
         $("#ALBUM").text("The Night is Young");
         $("#BAND").text("By: The 2 Bears");
+        TwoBears.forEach(function(TwoBear){
+          $('#mylist').append(TwoBear);
+        });
       } else if (num == [1]){
         $("#ALBUM").text("The Lions Roar");
         $("#BAND").text("By: First Aid Kit");
