@@ -22,8 +22,15 @@ img {
   border-radius: 25px;
 }
 
+
 li {
-  display: none;
+
+  list-style: none; /* added this so that the list doesn't display bullets, but is still a list.....still needs some better alignment
+
+  /* you had your list items hidden -- why?
+  if they needed to be hidden switch this back and then add a .show() when you append your songs
+
+  display: none; */
 }
 
 .nav-item {
@@ -50,4 +57,20 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#ALBUM {
+  font-weight: bold;
+  color: #a65a01;
+}
+
+#BAND {
+  font-weight: bold;
+  color: #cc7105;
+}
+
+#myList {
+  font-weight: bold;
+  color: #f1834d
+
 }
