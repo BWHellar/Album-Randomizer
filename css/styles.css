@@ -22,10 +22,9 @@ img {
   border-radius: 25px;
 }
 
-
 li {
 
-  list-style: none; 
+  list-style: none;
 }
 
 .nav-item {
@@ -56,16 +55,18 @@ body {
 
 #ALBUM {
   font-weight: bold;
-  color: #a65a01;
+  color: black;
+  text-shadow: 0 0 3px #FF0000;
 }
 
 #BAND {
   font-weight: bold;
-  color: #cc7105;
+  color: black;
+  text-shadow: 0 0 3px #FF0000;
 }
 
 #myList {
   font-weight: bold;
-  color: #f1834d
-
+  color: black;
+  text-shadow: 0 0 3px #FF0000;
 }

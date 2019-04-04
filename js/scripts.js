@@ -1,10 +1,6 @@
-//lets setup a proper jquery document ready function that wraps all of our jquery
+
 $(document).ready(function(){
-
-  //MAAAANNNN it would be nice to have a dataset of all this already done (i'm sure one exists). i (we) have no idea how to work with a dataset like that tho
-
-  //Something else to think about, if this program were to be very large (say, the amount of music spotify has catalogued)
-  //Then the user's machine would likely crash/run out of RAM trying to store so many variables.
+// Various array to be compiled in the future once the knowledge is obtained//
   var TwoBears = ["Get Out", "Angel (Touch Me)", "Money Man", "Not This Time", "See You", "Son Of The Sun", "	Unbuild It", "Modern Family", "Mary Mary", "Run Run Run", "My Queen", "	The Night Is Young", "Silence", "Hidden Track"]
   var AidKits = ["The Lion's Roar", "Emmylou", "In The Hearts Of Men", "Blue", "This Old Routine", "To A Poet", "I Found A Way", "Dance To Another Tune", "New Year's Eve", "King Of The World"]
   var Avalanche = ["Since I Left You", "Stay Another Season", "Radio", "Two Hearts In 3/4 Time", "Avalanche Rock", "Flight Tonight", "Close To You", "Diners Only", "A Different Feeling", "Electricity", "Tonight May Have To Last Me All My Life", "Pablo's Cruise", "Frontier Psychiatrist", "Etoh", "Summer Crane", "Little Journey", "Live At Dominoes", "Extra Kings"]
@@ -38,16 +34,16 @@ $(document).ready(function(){
 
   var imagesArray = ["img/2Bears.jpg", "img/AidKit.jpg", "img/Avalanche.jpg", "img/Chainless.jpg", "img/ChromeSparks.jpg", "img/Computer.jpg", "img/Crystal.jpg", "img/DFA.jpg", "img/DillyDally.jpg", "img/Eagles.jpg", "img/Emancipator.jpg", "img/Emancipator2.jpg", "img/Foals.jpg", "img/FrontBottom.jpg", "img/MillionDead.jpg", "img/Moderat.jpg", "img/Nosajthing.jpg", "img/Offend.jpg", "img/Pixies.jpg", "img/Presets.jpg", "img/QOTSA.jpg", "img/Ratatat.jpg", "img/Regina.jpg", "img/Shlomo.jpg", "img/Silversun.jpg", "img/Sleater.jpg", "img/Tricky.jpg", "img/Wax.jpg", "img/WyeOak.jpg", "img/Yeasayer.jpg"];
 
-  //the new event listener
+  //The event listener//
   $("#randomButton").click(function(){
     displayImage();
   })
 
 
 
-
+// This is the main function that runs everything //
   function displayImage(){
-    var num = Math.floor(Math.random() * 30);
+    var num = Math.floor(Math.random() * 3);
     document.canvas.src = imagesArray[num];
     if (num == [0]){
       $("#ALBUM").text("The Night is Young");
@@ -257,7 +253,7 @@ $(document).ready(function(){
       $("#BAND").text('By: Yeasayer');
       $("#outputRow").html('<ul id="myList"></ul>');
       for (var i = 0; i < Yea.length; i++) {
-        $("#myList").append("<li>"+"</li>");
+        $("#myList").append("<li>"+Yeah[i]+"</li>");
       };
     }
   }
