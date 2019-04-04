@@ -45,117 +45,220 @@ $(document).ready(function(){
 
 
 
-  //Does this function ONLY handle displaying the image?? (rhetorical question)
+
   function displayImage(){
-    var num = Math.floor(Math.random() * 3);
+    var num = Math.floor(Math.random() * 30);
     document.canvas.src = imagesArray[num];
     if (num == [0]){
       $("#ALBUM").text("The Night is Young");
       $("#BAND").text("By: The 2 Bears");
-      //ve the last albums track list
-      $("#myList").text("");
-
-
-      //all you did was forget the <li>'s BUT..................
-      // TwoBears.forEach(function(TwoBear){
-      //   $('#myList').append("<li>"+TwoBear+"</li>");
-      // });
-
-      //................use a for loop instead
+      $("#outputRow").html('<ul id="myList"></ul>');
       for (var i = 0; i < TwoBears.length; i++) {
-        console.log("two bears");
-        $("#myList").append("<li>"+TwoBears[i]+"</li>");  //this is the magic (the <li>'s) -- see also line 40 of the HTML
+        $("#myList").append("<li>"+TwoBears[i]+"</li>");
       };
-
-      //on a more advanded aside, is there a way to automate all these if else if statements
-      //with a SINGLE function instead of typing them all out?
     } else if (num == 1){
       $("#ALBUM").text("The Lions Roar");
       $("#BAND").text("By: First Aid Kit");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < AidKits.length; i++) {
+        $("#myList").append("<li>"+AidKits[i]+"</li>");
+      };
     } else if (num == 2){
       $("#ALBUM").text("Since I Left You")
       $("#BAND").text("By: The Avalanches");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Avalanche.length; i++) {
+        $("#myList").append("<li>"+Avalanche[i]+"</li>");
+      };
     } else if (num == 3){
       $("#ALBUM").text("Grey Veils");
       $("#BAND").text("By: Chainless");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Chainless.length; i++) {
+        $("#myList").append("<li>"+Chainless[i]+"</li>");
+      };
     } else if (num == 4){
       $("#ALBUM").text("Sparks EP");
       $("#BAND").text("By: Chrome Sparks");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Chrome.length; i++) {
+        $("#myList").append("<li>"+Chrome[i]+"</li>");
+      };
     } else if (num == 5){
       $("#ALBUM").text("This is the Computers");
       $("#BAND").text("By: The Computers");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Computer.length; i++) {
+        $("#myList").append("<li>"+Computer[i]+"</li>");
+      };
     } else if (num == 6){
       $("#ALBUM").text("III")
       $("#BAND").text("By: Crystal Castles");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Crystal.length; i++) {
+        $("#myList").append("<li>"+Crystal[i]+"</li>");
+      };
     } else if (num == 7){
       $("#ALBUM").text("Heads Up")
       $("#BAND").text("By: Death From Above");
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Death.length; i++) {
+        $("#myList").append("<li>"+Death[i]+"</li>");
+      };
     } else if (num == 8){
       $("#ALBUM").text("Heaven")
       $("#BAND").text('By: Dilly Dally');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Dilly.length; i++) {
+        $("#myList").append("<li>"+Dilly[i]+"</li>");
+      };
     } else if (num == 9){
       $("#ALBUM").text("Heart On")
       $("#BAND").text('By: Eagles of Death Metal');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Eagles.length; i++) {
+        $("#myList").append("<li>"+Eagles[i]+"</li>");
+      };
     } else if (num == 10){
       $("#ALBUM").text("Dusk to Dawn")
       $("#BAND").text('By: Emancipator');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Emanc.length; i++) {
+        $("#myList").append("<li>"+Emanc[i]+"</li>");
+      };
     } else if (num == 11){
       $("#ALBUM").text("Safe in the Steep Cliffs")
       $("#BAND").text('By: Emancipator');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Emanc2.length; i++) {
+        $("#myList").append("<li>"+Emanc2[i]+"</li>");
+      };
     } else if (num == [12]){
       $("#ALBUM").text("Antidotes")
       $("#BAND").text('By: Foals');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Foals.length; i++) {
+        $("#myList").append("<li>"+Foals[i]+"</li>");
+      };
     } else if (num == [13]){
       $("#ALBUM").text("Back on Top")
       $("#BAND").text('By: The Front Bottoms');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Front.length; i++) {
+        $("#myList").append("<li>"+Front[i]+"</li>");
+      };
     } else if (num == [14]){
       $("#ALBUM").text("Harmony No Harmony")
       $("#BAND").text('By: Million Dead');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Million.length; i++) {
+        $("#myList").append("<li>"+Million[i]+"</li>");
+      };
     } else if (num == [15]){
       $("#ALBUM").text("II")
       $("#BAND").text('By: Moderat');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Moderat.length; i++) {
+        $("#myList").append("<li>"+Moderat[i]+"</li>");
+      };
     } else if (num == [16]){
       $("#ALBUM").text("Home")
       $("#BAND").text('By: Nosaj Thing');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Nosaj.length; i++) {
+        $("#myList").append("<li>"+Nosaj[i]+"</li>");
+      };
     } else if (num == [17]){
       $("#ALBUM").text("You Have No Idea What You're Getting Into")
       $("#BAND").text('By: Does It Offend You, Yeah?');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Offend.length; i++) {
+        $("#myList").append("<li>"+Offend[i]+"</li>");
+      };
     } else if (num == [18]){
       $("#ALBUM").text("Doolittle")
       $("#BAND").text('By: Pixies');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Pixies.length; i++) {
+        $("#myList").append("<li>"+Pixies[i]+"</li>");
+      };
     } else if (num == [19]){
       $("#ALBUM").text("Pacifica")
       $("#BAND").text('By: The Presets');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Presets.length; i++) {
+        $("#myList").append("<li>"+Presets[i]+"</li>");
+      };
     } else if (num == [20]){
       $("#ALBUM").text("Era Vulgaris")
       $("#BAND").text('By: Queens of the Stone Age');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Queens.length; i++) {
+        $("#myList").append("<li>"+Queens[i]+"</li>");
+      };
     } else if (num == [21]){
       $("#ALBUM").text("The Classics")
       $("#BAND").text('By: Ratatat');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Ratatat.length; i++) {
+        $("#myList").append("<li>"+Ratatat[i]+"</li>");
+      };
     } else if (num == [22]){
       $("#ALBUM").text("Begin to Hope")
       $("#BAND").text('By: Regina Spektor');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Regina.length; i++) {
+        $("#myList").append("<li>"+Regina[i]+"</li>");
+      };
     } else if (num == [23]){
       $("#ALBUM").text("Bad Vibes")
       $("#BAND").text('By: Shlomo');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Shlomo.length; i++) {
+        $("#myList").append("<li>"+Shlomo[i]+"</li>");
+      };
     } else if (num == [24]){
       $("#ALBUM").text("Pikul")
       $("#BAND").text('By: Silversun Pickups');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Silversun.length; i++) {
+        $("#myList").append("<li>"+Silversun[i]+"</li>");
+      };
     } else if (num == [25]){
       $("#ALBUM").text("Cities to Love")
       $("#BAND").text('By: Sleater-Kinney');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Sleater.length; i++) {
+        $("#myList").append("<li>"+Sleater[i]+"</li>");
+      };
     } else if (num == [26]){
       $("#ALBUM").text("False Idols")
       $("#BAND").text('By: Tricky');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Tricky.length; i++) {
+        $("#myList").append("<li>"+Tricky[i]+"</li>");
+      };
     } else if (num == [27]){
       $("#ALBUM").text("Wax Tailor Tales of the Forgotten Melodies")
       $("#BAND").text('By: Wax Tailor');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Wax.length; i++) {
+        $("#myList").append("<li>"+Wax[i]+"</li>");
+      };
     } else if (num == [28]){
       $("#ALBUM").text("Civilian")
       $("#BAND").text('By: Wye Oak');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Wye.length; i++) {
+        $("#myList").append("<li>"+Wye[i]+"</li>");
+      };
     } else if (num == [29]){
       $("#ALBUM").text("Fragrant World")
       $("#BAND").text('By: Yeasayer');
+      $("#outputRow").html('<ul id="myList"></ul>');
+      for (var i = 0; i < Yea.length; i++) {
+        $("#myList").append("<li>"+"</li>");
+      };
     }
   }
 

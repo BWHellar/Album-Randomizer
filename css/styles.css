@@ -25,12 +25,7 @@ img {
 
 li {
 
-  list-style: none; /* added this so that the list doesn't display bullets, but is still a list.....still needs some better alignment
-
-  /* you had your list items hidden -- why?
-  if they needed to be hidden switch this back and then add a .show() when you append your songs
-
-  display: none; */
+  list-style: none; 
 }
 
 .nav-item {
