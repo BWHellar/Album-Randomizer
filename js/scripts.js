@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 // This is the main function that runs everything //
   function displayImage(){
-    var num = Math.floor(Math.random() * 3);
+    var num = Math.floor(Math.random() * 30);
     document.canvas.src = imagesArray[num];
     if (num == [0]){
       $("#ALBUM").text("The Night is Young");
